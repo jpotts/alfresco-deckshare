@@ -1,0 +1,9 @@
+<webscript>
+    <shortname>Content Summary</shortname>
+    <description>Returns a summary of content items</description>
+    <family>DeckShare</family>
+    <url>/deckshare/summary/{category}</url>
+    <url>/deckshare/summary.json</url>
+    <format default="json">any</format>
+    <authentication>guest</authentication>
+</webscript>

@@ -1,0 +1,2 @@
+# this directory should already have wcmqs.war expanded in it
+wcmqs.web.dir=/opt/apache/tomcat81/apache-tomcat-6.0.18/webapps/deckshare

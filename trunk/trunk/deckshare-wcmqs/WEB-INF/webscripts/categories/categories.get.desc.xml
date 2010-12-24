@@ -1,0 +1,7 @@
+<webscript>
+	<shortname>categories</shortname>
+	<description>Display the Categories</description>
+    <family>DeckShare</family>
+	<url>/categories/categories</url>
+	<authentication>none</authentication>
+</webscript>

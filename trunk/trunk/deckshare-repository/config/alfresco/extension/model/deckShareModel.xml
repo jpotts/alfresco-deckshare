@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="ds:decksharemodel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+
+	<description>Alfresco DeckShare Content Model</description>
+	<author>Jeff Potts</author>
+	<version>1.0</version>
+
+	<imports>
+		<import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d" />
+		<import uri="http://www.alfresco.org/model/content/1.0" prefix="cm" />
+		<import uri="http://www.alfresco.org/model/system/1.0" prefix="sys" />
+	</imports>
+
+	<namespaces>
+		<namespace uri="http://www.alfresco.com/model/deckshare/1.0" prefix="ds" />
+	</namespaces>
+
+	<aspects>
+		<aspect name="ds:relatable">
+			<title>DeckShare Relatable</title>
+			<associations>
+				<association name="ds:related">
+					<title>Related</title>
+					<source>
+						<mandatory>false</mandatory>
+						<many>true</many>
+					</source>
+					<target>
+						<class>cm:content</class>
+						<mandatory>false</mandatory>
+						<many>true</many>
+					</target>
+				</association>
+			</associations>
+		</aspect>
+		<aspect name="ds:supportable">
+			<title>DeckShare Supportable</title>
+			<associations>
+				<association name="ds:supporting">
+					<title>Related</title>
+					<source>
+						<mandatory>false</mandatory>
+						<many>true</many>
+					</source>
+					<target>
+						<class>cm:content</class>
+						<mandatory>false</mandatory>
+						<many>true</many>
+					</target>
+				</association>
+			</associations>
+		</aspect>
+	</aspects>
+
+</model>

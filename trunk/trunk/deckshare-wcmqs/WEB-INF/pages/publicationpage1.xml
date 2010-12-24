@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page> 
+   <id>publicationpage1</id>
+   <description>page of publication thumbnails</description>
+   <template-instance>two-block</template-instance>
+   <authentication>none</authentication>
+   <components>
+      <component>
+         <region-id>left1</region-id>
+         <url>/preview/web-preview</url>
+      </component>    
+      <component>
+         <region-id>left2</region-id>
+         <url>/deckshare/related</url>
+         <properties>
+  	     	<linkPage>publicationpage1</linkPage>
+         </properties>         
+      </component>    
+      <component>
+         <region-id>right1</region-id>
+         <url>/content/details</url>
+         <properties>
+            <title>content.details.title</title>
+         </properties>          
+      </component>               
+      <component>
+         <region-id>right2</region-id>
+         <url>/deckshare/supporting</url>
+      </component>               
+      <component>
+         <region-id>right3</region-id>
+         <url>/categories/categories</url>             
+      </component>               
+      <component>
+         <region-id>right4</region-id>
+         <url>/ad</url>             
+      </component>               
+   </components>
+</page>

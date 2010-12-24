@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page> 
+   <id>search</id>
+   <title>title.search</title>
+   <template-instance>two-block</template-instance>
+   <authentication>none</authentication>
+   <components>
+      <component>
+         <region-id>left1</region-id>
+         <url>/search/results</url>
+         <properties>
+  	     	<linkPage>publicationpage1</linkPage>
+    	 </properties>
+      </component>       
+      <component>
+         <region-id>right1</region-id>
+         <url>/list/narrow</url>
+         <properties>
+  	     	<collection>decks.latest</collection>
+  	     	<linkPage>publicationpage1</linkPage>
+    	 </properties>         
+      </component>
+	  <component>
+         <region-id>right2</region-id>
+         <url>/categories/categories</url>             
+      </component>
+      <component>
+         <region-id>right3</region-id>
+         <url>/ad</url>             
+      </component>
+   </components>
+</page>

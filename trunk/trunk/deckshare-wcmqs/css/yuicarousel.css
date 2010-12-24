@@ -1,0 +1,90 @@
+.carousel-wrapper {
+	float:left;
+	#height:40px;
+	margin:-20px 0 0;
+	width:100%;
+}
+
+.yui-carousel-element li {
+    height: 158px;
+}
+
+#yuicarousel-container {
+    font-size: 13px;
+}
+
+#yuicarousel-container a {
+    text-decoration: none;
+}
+
+#yuicarousel-container .intro {
+    display: inline;
+    float: left;
+    margin: 0px 14px 0px 4px;
+    width: 202px;
+}
+
+#yuicarousel-container .item {
+    display: inline;
+    float: left;
+    margin: 0 22px 0 12px;
+    overflow: hidden;
+    padding-right: 80px;
+    width: 106px;
+}
+
+#yuicarousel-container .item .authimg {
+    bottom: 2px;
+    margin-left: 61px;
+    position: absolute;
+    z-index: 1;
+}
+
+#yuicarousel-container .item h3 {
+    line-height: 85%;
+    margin-top: 4px;
+}
+
+#yuicarousel-container .item h3 a {
+    font: 77% Arial, sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+#yuicarousel-container .item h3 a:link {
+    color:#35a235;
+}
+
+#yuicarousel-container .item h4 {
+    margin-top:5px;
+}
+
+#yuicarousel-container .item h4 a {
+    font: 100% Georgia, Times, serif;
+    position: relative;
+    z-index:2;
+}
+
+#yuicarousel-container .item h4 a:link {
+    color:#00639b;
+}
+
+#yuicarousel-container .item cite {
+    color: #888;
+    display: block;
+    font-size: 77%;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+#yuicarousel-container .item p.all {
+    bottom: 25px;
+    position: absolute;
+    z-index: 2;
+}
+
+#yuicarousel-container .item p.all a {
+    font-weight: bold;
+    font-size: 85%;
+}
