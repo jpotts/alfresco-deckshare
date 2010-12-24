@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page> 
+   <id>homepage</id>
+   <title>DeckShare Home</title>
+   <title-id>page.deckshareHome.title</title-id>
+   <description-id>page.deckshareHome.description</description-id>
+   <description>DeckShare Home page with 5 main configurable blocks, ideal for site home page</description>   
+   <template-instance>five-block</template-instance>
+   <authentication>none</authentication>
+   <components>
+      <component>
+         <region-id>bellyband</region-id>
+         <url>/carousel/yuicarousel</url>
+         <properties>
+  	     	<collection>decks.carousel</collection>
+  	     	<linkPage>publicationpage1</linkPage>
+    	 </properties>         
+      </component>  
+      <component>
+         <region-id>left1</region-id>
+         <url>/list/wide</url>
+         <properties>
+  	     	<collection>decks.latest</collection>
+  	     	<linkPage>publicationpage1</linkPage>
+    	 </properties>         
+      </component>       
+      <component>
+         <region-id>right1</region-id>
+         <url>/categories/categories</url>
+      </component>       
+      <component>
+         <region-id>right2</region-id>
+         <url>/list/links</url>
+         <properties>
+            <collection>decks.featured</collection>
+            <linkPage>publicationpage1</linkPage>            
+         </properties>         
+      </component>       
+      <component>
+         <region-id>right3</region-id>
+         <url>/content/named</url>
+         <properties>
+            <asset>feature.html</asset>
+         </properties>         
+      </component>       
+      <component>
+         <region-id>right4</region-id>
+         <url>/ad</url>
+      </component>       
+   </components>
+</page>

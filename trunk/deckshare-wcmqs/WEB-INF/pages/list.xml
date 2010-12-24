@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page> 
+   <id>list</id>
+   <description>section landing page with detailed publication list</description>      
+   <template-instance>two-block</template-instance>
+   <authentication>none</authentication>
+   <components>
+      <component>
+         <region-id>left1</region-id>
+         <url>/list/full</url>
+         <properties>
+  	     	<collection>section.articles</collection>
+	         <linkPage>publicationpage1</linkPage>
+    	 </properties>         
+      </component>       
+      <component>
+         <region-id>right1</region-id>
+         <url>/categories/categories</url>
+      </component>       
+   </components>
+</page>

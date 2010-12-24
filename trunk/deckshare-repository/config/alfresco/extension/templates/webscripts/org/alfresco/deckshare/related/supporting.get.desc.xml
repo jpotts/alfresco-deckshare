@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Get supporting documents for the specified node</shortname>
+    <description>Returns the supporting documents for the specified node</description>
+    <family>DeckShare</family>
+    <url>/deckshare/supporting/{nodeRef}</url>
+    <format default="json">any</format>
+    <authentication>user</authentication>
+</webscript>

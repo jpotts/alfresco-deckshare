@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page> 
+   <id>aboutpage1</id>
+   <description>About this web site</description>    
+   <title>title.contact</title>
+   <template-instance>one-block</template-instance>
+   <authentication>none</authentication>
+   <components>     
+      <component>
+         <region-id>main1</region-id>
+         <url>/content/named</url>
+         <properties>
+  	     	<asset>about.html</asset>
+    	 </properties>         
+      </component>       
+   </components>
+</page>

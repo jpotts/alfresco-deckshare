@@ -1,0 +1,9 @@
+<webscript>
+    <shortname>Get Content List</shortname>
+    <description>Returns a list of content by category node</description>
+    <family>DeckShare</family>
+    <url>/deckshare/list/{category}</url>
+    <url>/deckshare/list.json</url>
+    <format default="json">any</format>
+    <authentication>guest</authentication>
+</webscript>

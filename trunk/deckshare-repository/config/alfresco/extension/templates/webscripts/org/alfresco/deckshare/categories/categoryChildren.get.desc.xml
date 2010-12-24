@@ -1,0 +1,9 @@
+<webscript>
+    <shortname>Get Category Children</shortname>
+    <description>Returns the specified (by NodeId or QName) category node and its children</description>
+    <family>DeckShare</family>
+    <url>/deckshare/categoryChildren/node/{nodeRef}</url>
+    <url>/deckshare/categoryChildren/path/{nodePath}</url>
+    <format default="json">any</format>
+    <authentication>user</authentication>
+</webscript>
